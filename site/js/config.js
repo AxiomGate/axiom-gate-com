@@ -6,8 +6,10 @@ window.SITE_CONFIG = {
   // mailbox in the Formspree dashboard (Settings > "Send emails to") once one exists.
   FORM_ENDPOINT: "https://formspree.io/f/xljdbqjq",
 
-  // Microsoft Bookings public page URL (Outlook -> Bookings -> your booking page -> Share link).
-  BOOKINGS_URL: "PLACEHOLDER_BOOKINGS_URL",
+  // Microsoft Bookings public page URL — the "30 minutes meeting" type, shared with
+  // ?anonymous so visitors don't need to sign in. Manage hours/availability at
+  // https://bookings.cloud.microsoft
+  BOOKINGS_URL: "https://bookings.cloud.microsoft/bookwithme/user/b9efd85f09ce4871bf92124d801172a6@axiom-gate.com/meetingtype/01dPS_iLJkiL5o_WWYYQ4w2?anonymous&ismsaljsauthenabled",
 
   // Public contact address shown on the site.
   CONTACT_EMAIL: "hello@axiom-gate.com"
