@@ -12,5 +12,5 @@ window.SITE_CONFIG = {
   BOOKINGS_URL: "https://bookings.cloud.microsoft/bookwithme/user/b9efd85f09ce4871bf92124d801172a6@axiom-gate.com/meetingtype/01dPS_iLJkiL5o_WWYYQ4w2?anonymous&ismsaljsauthenabled",
 
   // Public contact address shown on the site.
-  CONTACT_EMAIL: "hello@axiom-gate.com"
+  CONTACT_EMAIL: "info@axiom-gate.com"
 };
