@@ -1,0 +1,10 @@
+# Axiom Gate
+
+> Axiom Gate is a small technology consultancy for small businesses and nonprofits. We build fast, secure websites, improve findability on Google, Google Maps and AI assistants, build practical AI automation (phone receptionists, inbox triage, content pipelines), and run plain-English security checkups. Clients own everything we build.
+
+## Pages
+
+- [Services](https://axiom-gate.com/services): Websites, findability (SEO + AI search), AI & automation, security checkups
+- [Work](https://axiom-gate.com/work): Anonymized case studies — event venue website rebuild, veterans organization membership site, wellness clinic findability audit, in-house AI builds
+- [About](https://axiom-gate.com/about): Who we are and how we work
+- [Contact](https://axiom-gate.com/contact): Book a free 30-minute call or send a message

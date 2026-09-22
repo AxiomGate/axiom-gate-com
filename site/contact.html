@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Axiom Gate</title>
+  <meta name="description" content="Book a free 30-minute call or send Axiom Gate a message about your website, search visibility, AI automation, or security.">
+  <link rel="canonical" href="https://axiom-gate.com/contact">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Axiom Gate">
+  <meta property="og:title" content="Contact — Axiom Gate">
+  <meta property="og:description" content="Book a free 30-minute call or send us a message.">
+  <meta property="og:url" content="https://axiom-gate.com/contact">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/" aria-label="Axiom Gate home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#0f2233"/><path d="M8 25V14a8 8 0 0 1 16 0v11" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path d="M16 25V13" stroke="#3fb8a9" stroke-width="2.6" stroke-linecap="round"/></svg>
+        Axiom Gate
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html" aria-current="page">Contact</a></li>
+          <li><a class="btn" href="/contact.html#book" data-bookings>Book a call</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's talk about what's in your way</h1>
+        <p class="lede">Book a free 30-minute call, or send a message and we'll reply within one business day.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid grid-2">
+        <div>
+          <h2 class="mt-0">Send a message</h2>
+          <form id="contact-form" class="form-grid" novalidate>
+            <div class="two">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" autocomplete="name" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div>
+              <label for="org">Business or organization <span class="opt">(optional)</span></label>
+              <input id="org" name="organization" autocomplete="organization">
+            </div>
+            <div>
+              <label for="topic">What can we help with?</label>
+              <select id="topic" name="topic" required>
+                <option value="">Choose one…</option>
+                <option>Website</option>
+                <option>Findability (Google, Maps, AI search)</option>
+                <option>AI &amp; automation</option>
+                <option>Security checkup</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Tell us a little about it</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="gotcha">Leave this empty</label>
+              <input id="gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+            <div>
+              <button class="btn" type="submit">Send message</button>
+            </div>
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <aside>
+          <div id="book" class="aside-box">
+            <h3>Book a free call</h3>
+            <p>Thirty minutes over video or phone. We'll look at your site and listings together and name the three things we'd fix first.</p>
+            <a class="btn" href="#book" data-bookings data-bookings-only hidden>Pick a time</a>
+            <p class="form-status show warn" data-bookings-pending>Online booking is being set up. For now, send a message and we'll schedule by email.</p>
+          </div>
+          <div class="aside-box">
+            <h3>Email</h3>
+            <p class="mt-0"><a href="#" data-email>hello@axiom-gate.com</a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2026 Axiom Gate · <a href="#" data-email>hello@axiom-gate.com</a></span>
+      <ul>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/work.html">Work</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/js/config.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
