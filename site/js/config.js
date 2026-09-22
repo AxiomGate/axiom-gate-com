@@ -1,9 +1,10 @@
 // Site settings — the only file you need to edit to go live.
 // Anything still set to a PLACEHOLDER value is detected by main.js and handled gracefully.
 window.SITE_CONFIG = {
-  // Formspree endpoint for the contact form, e.g. "https://formspree.io/f/abcdwxyz".
-  // Create a free form at https://formspree.io and point it at your @axiom-gate.com mailbox.
-  FORM_ENDPOINT: "https://formspree.io/f/YOUR_FORM_ID",
+  // Formspree endpoint for the contact form.
+  // Currently delivers to mrhatcher1234@yahoo.com — switch to an @axiom-gate.com
+  // mailbox in the Formspree dashboard (Settings > "Send emails to") once one exists.
+  FORM_ENDPOINT: "https://formspree.io/f/xljdbqjq",
 
   // Microsoft Bookings public page URL (Outlook -> Bookings -> your booking page -> Share link).
   BOOKINGS_URL: "PLACEHOLDER_BOOKINGS_URL",
