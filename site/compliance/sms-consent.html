@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMS Opt-In &mdash; Axiom Gate</title>
+  <meta name="description" content="How callers to the Axiom Gate phone line consent to receive a text message, and what that message says.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://axiom-gate.com/compliance/sms-consent.html">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .doc { max-width: 680px; margin: 0 auto; padding: 64px var(--gutter) 96px; }
+    .doc .eyebrow { font-family: var(--sans); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+    .doc h1 { margin: 0 0 6px; }
+    .doc .subtitle { font-family: var(--sans); color: var(--muted); margin: 0 0 28px; }
+    .doc .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 40px; }
+    .doc .tag { font-family: var(--sans); font-size: .78rem; font-weight: 600; background: var(--accent-soft); color: var(--accent); padding: 5px 11px; border-radius: 999px; }
+    .doc section { margin: 0 0 36px; }
+    .doc h2 { font-family: var(--sans); font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin: 0 0 16px; }
+    .doc .script { background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius); padding: 4px 20px; }
+    .doc .line { display: flex; gap: 14px; padding: 14px 0; border-top: 1px solid var(--line); }
+    .doc .line:first-child { border-top: none; }
+    .doc .who { font-family: var(--sans); font-size: .74rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); flex: 0 0 96px; padding-top: 2px; }
+    .doc .line p { font-style: italic; margin: 0; }
+    .doc .line p.plain { font-style: normal; color: var(--muted); font-family: var(--sans); font-size: .9rem; }
+    .doc .sms { font-family: var(--sans); background: var(--accent-soft); border-radius: 14px; border-bottom-left-radius: 4px; padding: 14px 16px; font-size: .92rem; max-width: 440px; }
+    .doc dl { display: grid; grid-template-columns: auto 1fr; gap: 10px 20px; font-family: var(--sans); font-size: .92rem; margin: 0; }
+    .doc dt { color: var(--muted); white-space: nowrap; }
+    .doc dd { margin: 0; }
+    .doc footer { font-family: var(--sans); font-size: .8rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 20px; margin-top: 48px; }
+    @media (max-width: 520px) {
+      .doc .line { flex-direction: column; gap: 6px; }
+      .doc dl { grid-template-columns: 1fr; gap: 4px 0; }
+      .doc dd { margin: 0 0 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main id="main" class="doc">
+    <p class="eyebrow">SMS Consent Documentation</p>
+    <h1>How callers opt in to receive a text</h1>
+    <p class="subtitle">The Axiom Gate business phone line, operated by AxiomGate Security Group LLC</p>
+
+    <div class="tags">
+      <span class="tag">Opt-in type: Verbal</span>
+      <span class="tag">Channel: Inbound phone call</span>
+      <span class="tag">Category: Customer care</span>
+    </div>
+
+    <section>
+      <h2>How consent is collected</h2>
+      <p>Axiom Gate&rsquo;s business line is answered by an automated receptionist. Every
+      number that receives a text from us got there the same way: the person dialed us
+      first, and then said yes when asked.</p>
+      <p>The receptionist asks permission once, out loud, before any message is sent. If
+      the caller declines, no text is sent and the call simply continues by voice. There
+      is no web form, no purchased list, and no way to be messaged by us without having
+      called and agreed on that call.</p>
+    </section>
+
+    <section>
+      <h2>Call script excerpt</h2>
+      <div class="script">
+        <div class="line">
+          <div class="who">Caller</div>
+          <p>&ldquo;I&rsquo;d like to set up that thirty-minute call.&rdquo;</p>
+        </div>
+        <div class="line">
+          <div class="who">Receptionist</div>
+          <p>&ldquo;Happy to. Would Tuesday or Wednesday afternoon suit you better?&rdquo;</p>
+        </div>
+        <div class="line">
+          <div class="who">Caller</div>
+          <p>&ldquo;Tuesday around two.&rdquo;</p>
+        </div>
+        <div class="line">
+          <div class="who">Receptionist</div>
+          <p>&ldquo;That&rsquo;s Tuesday, September 29th at two o&rsquo;clock. Can I text a quick
+          confirmation to the number you&rsquo;re calling from?&rdquo;</p>
+        </div>
+        <div class="line">
+          <div class="who">Caller</div>
+          <p>&ldquo;Yes, that&rsquo;s fine.&rdquo;</p>
+        </div>
+        <div class="line">
+          <div class="who">System</div>
+          <p class="plain">Only at this point &mdash; after an explicit spoken yes &mdash; is the
+          message below sent. A &ldquo;no&rdquo; ends the matter; the receptionist does not ask
+          a second time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sample message sent after consent</h2>
+      <div class="sms">
+        Thanks for calling Axiom Gate! We have your free 30-minute call down for Tue Sep 29
+        at 2:00pm, and someone will follow up to confirm. Reply STOP to opt out.
+      </div>
+      <p style="font-family: var(--sans); font-size: .88rem; color: var(--muted); margin-top: 14px;">
+        The wording varies with what the caller asked for &mdash; it always confirms their
+        request and that a person will follow up, and it always ends with the opt-out
+        line. It is never marketing.</p>
+    </section>
+
+    <section>
+      <h2>Program details</h2>
+      <dl>
+        <dt>Message frequency</dt>
+        <dd>Occasional &mdash; a single confirmation per call, only when the caller agreed to it.
+        Nothing recurring, no marketing, no promotional sends.</dd>
+        <dt>Rates</dt>
+        <dd>Message and data rates may apply.</dd>
+        <dt>Opt out</dt>
+        <dd>Reply STOP to any message to stop receiving texts.</dd>
+        <dt>Help</dt>
+        <dd>Reply HELP, or reach us any time at
+        <a href="https://axiom-gate.com/contact">axiom-gate.com/contact</a>.</dd>
+        <dt>Data use</dt>
+        <dd>Phone numbers collected on these calls are used only to send the confirmation the
+        caller asked for and to follow up about their request. They are never sold, rented, or
+        shared with third parties for marketing.</dd>
+      </dl>
+    </section>
+
+    <footer>
+      AxiomGate Security Group LLC, trading as Axiom Gate &mdash;
+      <a href="https://axiom-gate.com">axiom-gate.com</a>.
+      This page documents the SMS opt-in process for our own business line.
+    </footer>
+  </main>
+</body>
+</html>
