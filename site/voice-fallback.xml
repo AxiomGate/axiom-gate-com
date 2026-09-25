@@ -6,10 +6,10 @@
   timeout, an unreachable host, or malformed TwiML. On a normal call it is
   never touched.
 
-  IT IS HOSTED HERE, ON CLOUDFLARE PAGES, ON PURPOSE. The primary webhook
-  runs on node-d behind a Tailscale funnel; a fallback served by that same
-  box would be down in every situation that triggers it. This file depends on
-  none of it: not the receptionist, not the container, not the tunnel.
+  IT IS HOSTED HERE, ON CLOUDFLARE PAGES, ON PURPOSE. The primary webhook is
+  served from our own infrastructure; a fallback served from the same place
+  would be down in every situation that triggers it. This file depends on
+  none of that.
 
   Static hosting cannot answer a POST, so both numbers are configured with
   voice_fallback_method=GET. Switching that back to POST breaks this.

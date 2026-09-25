@@ -1,9 +1,8 @@
 // Site settings — the only file you need to edit to go live.
 // Anything still set to a PLACEHOLDER value is detected by main.js and handled gracefully.
 window.SITE_CONFIG = {
-  // Formspree endpoint for the contact form.
-  // Currently delivers to mrhatcher1234@yahoo.com — switch to an @axiom-gate.com
-  // mailbox in the Formspree dashboard (Settings > "Send emails to") once one exists.
+  // Formspree endpoint for the contact form. The delivery mailbox is set in
+  // the Formspree dashboard (Settings > "Send emails to"), not here.
   FORM_ENDPOINT: "https://formspree.io/f/xljdbqjq",
 
   // Microsoft Bookings public page URL — the "30 minutes meeting" type, shared with
